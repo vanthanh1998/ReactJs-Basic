@@ -6,9 +6,9 @@ class MyComponent extends React.Component {
     firstName: "",
     lastName: "",
     arrJobs: [
-      { id: 1, title: "Dev", salary: "1000$" },
-      { id: 2, title: "QA", salary: "500$" },
-      { id: 3, title: "QC", salary: "700$" },
+      { id: 1, title: "Dev", salary: "1000" },
+      { id: 2, title: "QA", salary: "500" },
+      { id: 3, title: "QC", salary: "700" },
     ],
   };
 
