@@ -68,6 +68,8 @@ class ListTodo extends react.Component {
     let isEmptyObj = Object.keys(editTodo).length === 0;
     return (
       <div className="list-todo-container">
+        <p>Simple Todo Apps</p>
+
         <AddTodo addNewTodo={this.addNewTodo} />
 
         <div className="list-todo-content">

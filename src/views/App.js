@@ -8,6 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import Nav from "./Nav/Navi";
 import Home from "./Example/Home";
+import ListUsers from "./Users/ListUsers";
 
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 
@@ -18,7 +19,6 @@ function App() {
         <header className="App-header">
           <Nav />
           <img src={logo} className="App-logo" alt="logo" />
-          <p>Simple Todo Apps</p>
 
           <Switch>
             <Route path="/" exact>
@@ -29,6 +29,9 @@ function App() {
             </Route>
             <Route path="/about">
               <MyComponent />
+            </Route>
+            <Route path="/user">
+              <ListUsers />
             </Route>
           </Switch>
         </header>
