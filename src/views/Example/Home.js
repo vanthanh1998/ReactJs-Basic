@@ -5,9 +5,9 @@ import { withRouter } from "react-router-dom";
 
 class Home extends React.Component {
   componentDidMount() {
-    setTimeout(() => {
-      this.props.history.push("/about");
-    }, 3000);
+    // setTimeout(() => {
+    //   this.props.history.push("/about");
+    // }, 3000);
   }
   render() {
     console.log(">>> check props:", this.props);
